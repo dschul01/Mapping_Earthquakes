@@ -145,7 +145,7 @@ function getColorMEQ(magnitude) {
   if (magnitude > 5) {
     return "#ea2c2c";
   }
-  return "#98ee00";
+  return "#0000FF";
 }
 
 // 6. Use the function that determines the radius of the earthquake marker based on its magnitude.
@@ -177,7 +177,40 @@ style: styleInfoMEQ,
     
 // 8. Add the major earthquakes layer to the map.
 majorEarthquakes.addTo(map);
-// 9. Close the braces and parentheses for the major earthquake data.
+
+// Extra Code for Adding a Second Legend for Major Earthquakes
+
+let legendMEQ = L.control({
+  position: "bottomright"
+});
+
+// Then add all the details for the legend
+legendMEQ.onAdd = function() {
+  let div = L.DomUtil.create("div", "info legend");
+
+  const magnitudes = [0, 5, 6];
+  const colors = [
+    "#0000FF",
+    "#ea2c2c",
+    "#800080"
+  ];
+
+
+// Looping through our intervals to generate a label with a colored square for each interval.
+  for (var i = 0; i < magnitudes.length; i++) {
+    console.log(colors[i]);
+    div.innerHTML +=
+      "<i style='background: " + colors[i] + "'></i> " +
+      magnitudes[i] + (magnitudes[i + 1] ? "&ndash;" + magnitudes[i + 1] + "<br>" : "+");
+    }
+    return div;
+  };
+
+
+  // Finally, we our legend to the map.
+  legendMEQ.addTo(map);
+
+  // 9. Close the braces and parentheses for the major earthquake data.
 });
 
 
