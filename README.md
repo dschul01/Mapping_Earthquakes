@@ -12,13 +12,13 @@ The Javascript file produces a website which provides a user multiple options on
 
 The following images provide a view into the multiple features of the map found on the website:
 
-One of three map styles for the user to choose as seen in upper right corner ('Light' style shown) as well as Popup description of earthquake. 
+One of three map styles for the user to choose as seen in the upper right corner ('Light' style shown) as well as a popup description of an earthquake. 
 ![Eathquakes_PopUp.png](https://github.com/dschul01/Mapping_Earthquakes/blob/main/Earthquakes_Challenge/Images/Eathquakes_PopUp.png)
 
 
-The layer containing all earthquakes is selected with Popup description of magnitude and location of an earthquake.  Bottom legend within bottom right of screen shows magnitude levels.
+The layer containing all earthquakes is selected with a popup description of the magnitude and location of an earthquake.  The bottom legend seen in the bottom right of the image shows the magnitude levels.
 ![Earthquakes_Layer.png](https://github.com/dschul01/Mapping_Earthquakes/blob/main/Earthquakes_Challenge/Images/Earthquakes_Layer.png)
 
-The layer containing major earthquakes is selected with Popup description of magnitude and location of a major earthquake.  Top legend within bottom right of screen shows magnitude levels.
+The layer containing major earthquakes is selected with Popup description of magnitude and location of a major earthquake.  The top legend seen in the bottom right of the image shows the magnitude levels.
 ![Major_Eathquakes_PopUp.png](https://github.com/dschul01/Mapping_Earthquakes/blob/main/Earthquakes_Challenge/Images/Major_Eathquakes_PopUp.png)
 
