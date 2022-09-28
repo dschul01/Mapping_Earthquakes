@@ -10,7 +10,7 @@ The Javascript file produces a website which provides a user multiple options on
 
 ### Earthquake Map 
 
-The following images provide a view into the multiple features of the map found on the website.  Note each image shows the tectonic plates in orange linestrings:
+The following images provide a view into the multiple features of the map found on the website.  Note each image shows the tectonic plates in orange:
 
 One of three map styles for the user to choose as seen in the upper right corner ('Light' style shown) as well as a popup description of an earthquake. 
 ![Eathquakes_PopUp.png](https://github.com/dschul01/Mapping_Earthquakes/blob/main/Earthquakes_Challenge/Images/Eathquakes_PopUp.png)
